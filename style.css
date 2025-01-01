@@ -1,0 +1,143 @@
+.container{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    
+    width:100vw;
+    height:200vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.header{
+    height:100px;
+    background-image: radial-gradient( circle 382px at 50% 50.2%,  rgba(73,76,212,1) 0.1%, rgba(3,1,50,1) 100.2% );
+}
+h2{
+   font-style: Georgia (serif);
+    margin:5px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+.header h3{
+    margin:5px;
+    text-align: center;
+    color:white;
+}
+.header h4{
+    color:white;
+    margin:5px;
+    text-align: center;
+}
+
+.container2{
+    margin:20px;
+    height:100vh;
+  
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns: repeat(4,270px);
+    grid-template-rows: repeat(2,350px);
+    
+    /*grid-template-columns: repeat(auto-fit,minmax(266px,320px));*/
+    gap: 1rem;
+}
+.items{
+    display:flex;
+    background-color: white;
+    flex-direction: column;
+    border:2px solid rgb(197, 197, 247);
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(197, 197, 247);
+    justify-content: space-between;
+      
+}
+#imggadget{
+   width:266px;
+   height:175px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.middle h3,p{
+    margin:3px;
+    padding:4px;
+}
+.neeche{
+   display: flex;
+    width:270px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar{
+    width:50px;
+    height:50px;
+    margin-left: 0px;
+}
+.button1{
+    height:30px;
+    width:90px;
+    margin-right: 10px;
+}
+.date{
+     width:50px;
+     height:50px;
+}
+.andar{
+    margin:0px;
+    height:50px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    margin-right:40px;
+}
+.andar2{
+    margin:0px;
+    height:50px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    margin-right:20px;
+}
+.andar3{
+    margin:0px;
+    height:50px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    margin-right:10px;
+}
+
+.andar  h4,h5{
+    margin:0px;
+   
+}
+.andar2 h4,h5{
+    margin:0px;
+}
+.andar3 h4,h5{
+    margin:0px;
+}
+.andar2 h4{
+    margin-top: 7px;
+    color:blue;
+}
+.andar3 h4{
+    margin-top: 7px;
+    color:blue;
+}
+.andar  h4{
+    margin-top: 7px;
+    color:blue;
+}
+.items:hover{
+    transform:scale(0.9);
+}
+#healthy {
+    width: 266px;
+    height: 175px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
